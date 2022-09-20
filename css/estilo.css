@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+body{
+    background:linear-gradient(to top, black 2%, brown 3%, rgb(226, 62, 62) 4%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(226, 62, 62);
+    margin-left: 20px;
+}
+
+.hero{
+    background: linear-gradient(180deg, rgb(226, 62, 62) 0%, rgba(0,0,0,0) 3%, rgba(0,0,0,0) 98%, rgb(226, 62, 62) 100%), url(/imagens/igreja.png);
+    height: 715px;
+    max-width: 1350px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2%;
+}
+
+.main-content{
+    background: rgb(241, 240, 240);
+    border-radius: 5%;
+    margin: 0 5%;
+    height: 1000px;
+    padding: 0 5%;
+    margin-bottom: 2%;
+}
+
+.description{
+    margin: 0 50% 2% 0;
+}
+.description h1{
+    margin-bottom: 2%;
+    padding-top: 5%;
+}
+
+.description p{
+    font-size: 20px;
+}
+
+.events{
+    margin-bottom: 2%;
+}
+.map{
+    height: 30%;
+    width: 30%;
+
+}
+
+table, th, td{
+    text-align: center;
+}
+
+table{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    width: 80%;
+    height: 150px;
+    margin: 0 10% 2% 10%;
+}
+
+caption{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+table, caption{
+    background-color: rgb(226, 62, 62);
+}
+
+th,td{
+    background-color: rgb(241, 240, 240);
+    border: 1px solid black
+}
+
+.main-footer{
+    background-color: brown;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    color: rgb(241, 240, 240) ;
+}
+
+.main-footer a{
+    color: white;
+    text-decoration: none;
+    transition-property: font-size;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+}
+
+.main-footer a:hover{
+    font-weight: bold;
+    font-size: 18px;
+}
