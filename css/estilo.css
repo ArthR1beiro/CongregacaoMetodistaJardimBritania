@@ -16,7 +16,7 @@ header{
 }
 
 .hero{
-    background: linear-gradient(180deg, rgb(226, 62, 62) 0%, rgba(0,0,0,0) 3%, rgba(0,0,0,0) 98%, rgb(226, 62, 62) 100%), url(/imagens/igreja.png);
+    background: linear-gradient(180deg, rgb(226, 62, 62) 0%, rgba(0,0,0,0) 3%, rgba(0,0,0,0) 98%, rgb(226, 62, 62) 100%), url(https://github.com/ArthR1beiro/CongregacaoMetodistaJardimBritania/blob/main/imagens/igreja.png?raw=true);
     height: 715px;
     max-width: 1350px;
     background-position: left center;
