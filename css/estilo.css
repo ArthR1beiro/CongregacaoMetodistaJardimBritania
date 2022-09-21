@@ -6,7 +6,7 @@
 
 
 body{
-    background:linear-gradient(to top, black 2%, brown 3%, rgb(226, 62, 62) 4%);
+    background:linear-gradient(to top, black 1%, brown 3%, rgb(226, 62, 62) 4%);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -29,16 +29,18 @@ header{
     background: rgb(241, 240, 240);
     border-radius: 5%;
     margin: 0 5%;
-    height: 1000px;
+    height: 1300px;
     padding: 0 5%;
     margin-bottom: 2%;
+    
 }
 
 .description{
-    margin: 0 50% 2% 0;
+    margin-top: 2%;
+    overflow: auto;
 }
 .description h1{
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     padding-top: 5%;
 }
 
@@ -46,13 +48,35 @@ header{
     font-size: 20px;
 }
 
-.events{
-    margin-bottom: 2%;
+.p1{
+    margin-bottom: 5%;
 }
-.map{
-    height: 30%;
-    width: 30%;
 
+.p2 ,.p3{
+    margin: 0 60% 7% 2%;
+}
+
+.description img{
+    float: right;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    border-radius: 30px;
+}
+
+
+.endereco h1, .endereco p{
+    margin-bottom: 2%;
+    text-align: center;
+}
+.map, .endereco img{
+    height: 300px;
+    width: 400px;
+    margin: 0 2% 0% 2%;
+    border-radius: 15px;
+}
+
+.map{
+    margin-left: 10%;
 }
 
 table, th, td{
@@ -65,7 +89,7 @@ table{
     border-right: 1px solid black;
     width: 80%;
     height: 150px;
-    margin: 0 10% 2% 10%;
+    margin: 0 10% 5% 10%;
 }
 
 caption{
