@@ -16,7 +16,7 @@ header{
 }
 
 .hero{
-    background: linear-gradient(180deg, rgb(226, 62, 62) 0%, rgba(0,0,0,0) 3%, rgba(0,0,0,0) 98%, rgb(226, 62, 62) 100%), url(https://github.com/ArthR1beiro/IgrejaMetodistaJardimBritania/blob/main/imagens/igreja.png?raw=true);
+    background: linear-gradient(180deg, rgb(226, 62, 62) 0%, rgba(0,0,0,0) 3%, rgba(0,0,0,0) 98%, rgb(226, 62, 62) 100%), url(/imagens/igreja.png);
     height: 715px;
     max-width: 1350px;
     background-position: left center;
@@ -40,7 +40,7 @@ header{
     overflow: auto;
 }
 .description h1{
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     padding-top: 5%;
 }
 
