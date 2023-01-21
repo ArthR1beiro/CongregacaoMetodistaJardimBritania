@@ -163,6 +163,7 @@ td {
   color: rgb(241, 240, 240);
 }
 
+<<<<<<< HEAD
 .main-footer a {
   color: white;
   text-decoration: none;
@@ -174,4 +175,9 @@ td {
 .main-footer a:hover {
   font-weight: bold;
   font-size: 18px;
+=======
+.main-footer a:hover{
+    font-weight: bold;
+    font-size: 18px;
+>>>>>>> 76925c74e66b79ee1ad86a021f1839ce7001f751
 }
