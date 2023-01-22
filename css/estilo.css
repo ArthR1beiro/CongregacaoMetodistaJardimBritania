@@ -70,89 +70,10 @@ header {
 }
 .main-content {
   background: rgb(241, 240, 240);
-  border-radius: 5%;
-  margin: 0 5%;
-  height: 1300px;
-  padding: 0 5%;
-  margin-bottom: 2%;
-}
-
-.description {
-  margin-top: 2%;
-  overflow: auto;
-}
-.description h1 {
-  margin-bottom: 2%;
-  padding-top: 5%;
-}
-
-.description p {
-  font-size: 20px;
-}
-
-.p1 {
-  margin-bottom: 5%;
-}
-
-.p2,
-.p3 {
-  margin: 0 60% 7% 2%;
-}
-
-.description img {
-  float: right;
-  margin-right: 2%;
-  margin-bottom: 2%;
-  border-radius: 30px;
-}
-
-.endereco h1,
-.endereco p {
-  margin-bottom: 2%;
-  text-align: center;
-}
-.map,
-.endereco img {
-  height: 300px;
-  width: 400px;
-  margin: 0 2% 0% 2%;
-  border-radius: 15px;
-}
-
-.map {
-  margin-left: 10%;
-}
-
-table,
-th,
-td {
-  text-align: center;
-}
-
-table {
-  border-bottom: 1px solid black;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  width: 80%;
-  height: 150px;
-  margin: 0 10% 5% 10%;
-}
-
-caption {
-  border-left: 1px solid black;
-  border-right: 1px solid black;
-  border-top: 1px solid black;
-}
-
-table,
-caption {
-  background-color: rgb(226, 62, 62);
-}
-
-th,
-td {
-  background-color: rgb(241, 240, 240);
-  border: 1px solid black;
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 5rem;
+  border-radius: 5rem;
 }
 
 .main-footer {
@@ -163,7 +84,6 @@ td {
   color: rgb(241, 240, 240);
 }
 
-<<<<<<< HEAD
 .main-footer a {
   color: white;
   text-decoration: none;
@@ -175,9 +95,4 @@ td {
 .main-footer a:hover {
   font-weight: bold;
   font-size: 18px;
-=======
-.main-footer a:hover{
-    font-weight: bold;
-    font-size: 18px;
->>>>>>> 76925c74e66b79ee1ad86a021f1839ce7001f751
 }
