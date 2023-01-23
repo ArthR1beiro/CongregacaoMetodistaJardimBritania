@@ -60,13 +60,28 @@ header {
     rgb(226, 62, 62) 100%
   );
 }
+.hero-img-conteiner {
+  background-color: rgb(226, 62, 62);
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.hero-img-conteiner h1 {
+  position: absolute;
+  font-size: 10rem;
+  color: aliceblue;
+  z-index: 10;
+}
 .hero-img {
   width: 100%;
   opacity: 0;
 }
 .hero-img-on {
   opacity: 1;
+  filter: blur(0.5rem);
 }
 .main-content {
   background: rgb(241, 240, 240);
@@ -76,6 +91,19 @@ header {
   border-radius: 5rem;
 }
 
+.endereco {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.endereco div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.endereco iframe,
+.endereco img {
+  border-radius: 1rem;
+}
 .main-footer {
   background-color: brown;
   height: 50px;
