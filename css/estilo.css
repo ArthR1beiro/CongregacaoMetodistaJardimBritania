@@ -32,6 +32,7 @@ p {
   font-size: 1.6rem;
 }
 a {
+  font-size: 1.6rem;
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
@@ -115,12 +116,10 @@ header {
 .main-footer a {
   color: white;
   text-decoration: none;
-  transition-property: font-size;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out;
+  transition: all 0.5s;
+  padding: 0.2rem;
 }
 
-.main-footer a:hover {
-  font-weight: bold;
-  font-size: 18px;
+.main-footer p > a:hover {
+  color: rgb(240, 181, 181);
 }
