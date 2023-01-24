@@ -26,14 +26,16 @@ html {
 }
 h1 {
   font-size: 2rem;
-  margin: 0 0 2rem 0;
+  margin-bottom: 2rem;
 }
 
 h2 {
   font-size: 1.8rem;
+  margin-bottom: 2rem;
 }
 p {
   font-size: 1.6rem;
+  margin-bottom: 2rem;
 }
 a {
   font-size: 1.6rem;
@@ -57,13 +59,7 @@ header {
 }
 
 .hero {
-  background: linear-gradient(
-    180deg,
-    var(--red) 0%,
-    rgba(0, 0, 0, 0) 1%,
-    rgba(0, 0, 0, 0) 98%,
-    var(--white) 100%
-  );
+  color: aqua;
 }
 .hero-img-conteiner {
   width: 100%;
@@ -85,13 +81,28 @@ header {
 }
 .hero-img-on {
   opacity: 1;
-  filter: blur(0.5rem);
+  /* filter: blur(0.5rem); */
 }
 .main-content {
   max-width: 120rem;
   margin: 0 auto 2rem auto;
   padding: 0 5rem;
   border-radius: 5rem;
+}
+.description-flex {
+  display: flex;
+  gap: 5rem;
+}
+
+.description h1,
+.p2 span {
+  font-weight: 600;
+  color: var(--red);
+}
+.p-conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .endereco {
@@ -105,7 +116,7 @@ header {
 
 .endereco iframe,
 .endereco img {
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 .main-footer {
   display: flex;
@@ -116,7 +127,9 @@ header {
   justify-content: center;
   align-items: center;
 }
-
+.main-footer p {
+  margin: 0;
+}
 .main-footer a {
   color: white;
   text-decoration: none;
