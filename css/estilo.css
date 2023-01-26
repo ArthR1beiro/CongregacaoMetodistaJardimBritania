@@ -99,6 +99,9 @@ header {
   margin-bottom: 4rem;
   border-bottom: 1px solid var(--red);
 }
+.description img {
+  border-radius: 0.5rem;
+}
 .description-flex {
   display: flex;
   gap: 5rem;
@@ -132,7 +135,7 @@ header {
   text-align: center;
   border-bottom: 1px solid var(--red);
   padding: 0.5rem;
-  width: 10rem;
+  width: 15rem;
 }
 .table p,
 .table h2 {
