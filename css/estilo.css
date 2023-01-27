@@ -23,6 +23,7 @@ Spacing system (px)
 html {
   font-size: 62.5%;
   font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
 }
 h1 {
   font-size: 2.5rem;
@@ -53,10 +54,33 @@ body {
   background: var(--white);
 }
 
-header {
+.main-header {
   background-color: var(--white);
   border-bottom: 0.2rem solid var(--red);
+  display: flex;
+  justify-content: space-between;
 }
+nav {
+  display: flex;
+  gap: 1rem;
+  margin-right: 3rem;
+}
+
+nav a {
+  text-transform: uppercase;
+  align-self: center;
+  background-color: rgba(226, 62, 62, 0.089);
+  color: black;
+  padding: 1.5rem 4rem;
+  border-bottom: 1px solid var(--red);
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+nav a:hover {
+  background-color: rgba(226, 62, 62, 0.205);
+  border-bottom: 3px solid var(--red);
+}
+
 .hi-light {
   color: var(--red);
   font-weight: 600;
