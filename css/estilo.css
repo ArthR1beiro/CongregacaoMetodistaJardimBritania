@@ -144,11 +144,6 @@ nav a:hover {
   justify-content: space-around;
 }
 
-.endereco {
-  text-align: center;
-  padding-bottom: 2rem;
-}
-
 .table {
   width: 75%;
   margin: 0 auto 4rem auto;
@@ -186,10 +181,31 @@ nav a:hover {
   background: rgba(226, 62, 62, 0.205);
 }
 
-.endereco h1 {
+.lives {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.lives-flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.lives h1 {
   justify-self: center;
   align-self: center;
   text-align: center;
+  border-bottom: 1px solid var(--red);
+  padding: 0.5rem;
+  width: 8rem;
+}
+
+.endereco {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.endereco h1 {
   border-bottom: 1px solid var(--red);
   padding: 0.5rem;
   width: 12rem;
@@ -206,6 +222,26 @@ nav a:hover {
   border-radius: 0.5rem;
   border: 1px solid var(--red);
 }
+
+.contato {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.contato-flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.contato h1 {
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  border-bottom: 1px solid var(--red);
+  padding: 0.5rem;
+  width: 13rem;
+}
+
 .main-footer {
   display: flex;
   background-color: var(--red);
