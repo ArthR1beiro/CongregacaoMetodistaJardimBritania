@@ -40,7 +40,7 @@ p {
 }
 a {
   font-size: 1.6rem;
-  color: rgb(255, 255, 255);
+  color: var(--red);
   text-decoration: none;
 }
 
