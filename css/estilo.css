@@ -159,7 +159,7 @@ nav a:hover {
   text-align: center;
   border-bottom: 1px solid var(--red);
   padding: 0.5rem;
-  width: 15rem;
+  width: 14rem;
 }
 .table p,
 .table h2 {
@@ -186,23 +186,23 @@ nav a:hover {
   background: rgba(226, 62, 62, 0.205);
 }
 
-.lives {
-  text-align: center;
-  padding-bottom: 2rem;
+.table tbody tr {
+  width: 33, 3%;
 }
 
-.lives-flex {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
+.table tr,
+.table th {
+  width: 25%;
 }
-.lives h1 {
-  justify-self: center;
-  align-self: center;
+
+.eventos p {
   text-align: center;
+}
+.eventos a {
+  padding: 0.2rem;
+}
+.eventos a:hover {
   border-bottom: 1px solid var(--red);
-  padding: 0.5rem;
-  width: 8rem;
 }
 
 .endereco {
@@ -245,6 +245,12 @@ nav a:hover {
   border-bottom: 1px solid var(--red);
   padding: 0.5rem;
   width: 13rem;
+}
+
+.contato svg {
+  height: 3.5rem;
+  fill: var(--red);
+  transition: scale 0.5s;
 }
 
 .main-footer {
