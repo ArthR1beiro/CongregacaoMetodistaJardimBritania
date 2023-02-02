@@ -238,6 +238,13 @@ nav a:hover {
   display: flex;
   justify-content: space-evenly;
 }
+
+.contato-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
 .contato h1 {
   justify-self: center;
   align-self: center;
@@ -251,6 +258,10 @@ nav a:hover {
   height: 3.5rem;
   fill: var(--red);
   transition: scale 0.5s;
+}
+
+.contato a:hover svg {
+  scale: 1.3;
 }
 
 .main-footer {
