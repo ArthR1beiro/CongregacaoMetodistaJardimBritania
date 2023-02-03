@@ -149,6 +149,9 @@ nav a:hover {
   justify-content: space-around;
 }
 
+.eventos {
+  margin-bottom: 4rem;
+}
 .table {
   width: 75%;
   margin: 0 auto 4rem auto;
@@ -197,6 +200,7 @@ nav a:hover {
 
 .eventos p {
   text-align: center;
+  margin: 0;
 }
 .eventos a {
   padding: 0.2rem;
@@ -207,7 +211,7 @@ nav a:hover {
 
 .endereco {
   text-align: center;
-  padding-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .endereco h1 {
@@ -230,7 +234,7 @@ nav a:hover {
 
 .contato {
   text-align: center;
-  padding-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .contato-flex {
