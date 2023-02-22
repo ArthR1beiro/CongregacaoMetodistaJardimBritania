@@ -229,7 +229,8 @@ nav a:hover {
 
 .endereco div {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 2rem;
 }
 
 .endereco iframe,
